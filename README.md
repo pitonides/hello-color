@@ -6,13 +6,19 @@ Escupe por la consola un texto en colores y con formato.
 
 [Pyenv](https://github.com/pyenv/pyenv#installation) - Para gestionar las versiones de python instaladas en tu sistema operativo
 
-Para instalar:
+Para instalar (Windows):
 
 ```
 pip install pyenv-win --target %USERPROFILE%\.pyenv
 ```
 
 [Pipenv](https://pipenv.pypa.io/en/latest/) - Para gestionar las bibliotecas (dependencias del proyecto)
+
+Para instalar:
+
+```
+pip install --user pipenv
+```
 
 ## Ejemplo
 
