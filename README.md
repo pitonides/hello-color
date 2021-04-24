@@ -14,6 +14,12 @@ pip install pyenv-win --target %USERPROFILE%\.pyenv
 
 [Pipenv](https://pipenv.pypa.io/en/latest/) - Para gestionar las bibliotecas (dependencias del proyecto)
 
+Para instalar:
+
+```
+pip install --user pipenv
+```
+
 ## Ejemplo
 
 Para ejecutar ingresa el siguiente comando  en la carpeta del proyecto: `python main.py`.
