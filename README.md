@@ -5,6 +5,7 @@ Escupe por la consola un texto en colores y con formato.
 ## Requerimientos
 
 [Pyenv](https://github.com/pyenv/pyenv#installation) - Para gestionar las versiones de python instaladas en tu sistema operativo
+
 [Pipenv](https://pipenv.pypa.io/en/latest/) - Para gestionar las bibliotecas (dependencias del proyecto)
 
 ## Ejemplo
