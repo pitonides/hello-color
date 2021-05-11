@@ -10,6 +10,14 @@ Para instalar (Windows):
 
 ```
 pip install pyenv-win --target %USERPROFILE%\.pyenv
+
+[System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
+
+[System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
+
+[System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv\pyenv-win\bin;" + $env:USERPROFILE + "\.pyenv\pyenv-win\shims;" + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
+
+pyenv rehash
 ```
 
 [Pipenv](https://pipenv.pypa.io/en/latest/) - Para gestionar las bibliotecas (dependencias del proyecto)
