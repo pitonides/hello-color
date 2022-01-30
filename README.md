@@ -42,3 +42,13 @@ Para ejecutar ingresa el siguiente comando  en la carpeta del proyecto: `python 
 |_| |_|_|  \__|_| |_|\___|_|  \___(_)
 
 ```
+
+## Docker
+
+    docker build -t hello-color .
+    docker run --rm -t hello-color
+
+### Develop
+
+    docker build --target develop  -t hello-color:develop .
+    docker run --rm -it -v $PWD:/opt/hello-color hello-color:develop
